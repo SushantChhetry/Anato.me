@@ -1,6 +1,7 @@
 
 # Anato.me - 3D Anatomy Learning Website
-Anato.me Logo
+<img src="/logo_transparent.png" alt="Logo" width="50%">
+
 
 Anato.me is a web application built with Next.js and React Three Fiber that provides an immersive and interactive platform for learning anatomy through 3D models. It offers an engaging way to explore the human body and understand its intricacies.
 
