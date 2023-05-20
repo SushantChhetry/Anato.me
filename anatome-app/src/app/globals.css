@@ -1,4 +1,8 @@
 :root {
+  --background-color:#fffe9a;
+  --main-color: #f3a333;
+  --btn-color: #f16821;
+  --footer-color: #cd4545
 }
 
 * {
@@ -11,9 +15,39 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  flex-direction: column;
+  justify-content: center;
 }
 
 a {
   color: inherit;
   text-decoration: none;
 }
+
+.content {
+  flex-grow: 1;
+}
+
+.footer {
+  background-color: var(--footer-color);
+  padding: 20px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.model-wrapper{
+  width: 80vw;
+  height: 90vh;
+}
+
+/* footer */
+
+.footer-social{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+/*  */
+
+

@@ -23,7 +23,7 @@ const ModelViewer = () => {
 
 const Model = () => {
   return (
-    <div>
+    <div className="model-wrapper">
       <Canvas>
         <ambientLight intensity={0.5} />
         <pointLight position={[10, 10, 10]} />

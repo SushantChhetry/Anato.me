@@ -10,7 +10,7 @@ const Header = () => {
         alignItems: "center",
       }}
     >
-      <img src="/anatome-app/public/logo_transparent.png" alt="logo" />
+      <img src="/logo_transparent.png" alt="logo" style={{ width: "25%" }} />
     </div>
   );
 };

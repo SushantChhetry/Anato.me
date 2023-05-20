@@ -8,10 +8,17 @@ import styles from "./page.module.css";
 export default function Home() {
   return (
     <main>
-      <Nav />
-      <Header />
-      <Body />
-      <Footer />
+      <div className="main-wrapper">
+        <Nav />
+        <Header />
+        <div class="content">
+          <Body />
+        </div>
+
+        <div className="footer">
+          <Footer />
+        </div>
+      </div>
     </main>
   );
 }
